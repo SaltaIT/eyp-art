@@ -39,6 +39,7 @@ class art::install inherits art {
   # gpgcheck = 1
   yumrepo { 'atomic':
     ensure     => 'present',
+    descr      => 'CentOS / Red Hat Enterprise Linux $releasever - atomic',
     mirrorlist => 'http://updates.atomicorp.com/channels/mirrorlist/atomic/centos-$releasever-$basearch',
     enabled    => true,
     protect    => false,
