@@ -42,7 +42,7 @@ class art::install inherits art {
     mirrorlist => 'http://updates.atomicorp.com/channels/mirrorlist/atomic/centos-$releasever-$basearch',
     enabled    => true,
     protect    => false,
-    gpgkey     => [ 'file:///etc/pki/rpm-gpg/RPM-GPG-KEY.art.txt', 'file:///etc/pki/rpm-gpg/RPM-GPG-KEY.atomicorp.txt' ],
+    gpgkey     => 'file:///etc/pki/rpm-gpg/RPM-GPG-KEY.art.txt file:///etc/pki/rpm-gpg/RPM-GPG-KEY.atomicorp.txt',
     gpgcheck   => true,
     require => Exec[ [ 'wget art gpg', 'wget atomicorp gpg' ] ],
   }
