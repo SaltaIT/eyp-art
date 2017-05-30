@@ -1,5 +1,9 @@
 class art::install inherits art {
 
+  Exec {
+		path => '/bin:/sbin:/usr/bin:/usr/sbin',
+	}
+
   exec { "art mkdir p ${gpgkeydir}":
     command => "mkdir -p ${gpgkeydir}",
     creates => $gpgkeydir,
