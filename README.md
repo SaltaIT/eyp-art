@@ -21,22 +21,13 @@
 
 ## Module Description
 
-If applicable, this section should have a brief description of the technology
-the module integrates with and what that integration enables. This section
-should answer the questions: "What does this module *do*?" and "Why would I use
-it?"
-
-If your module has a range of functionality (installation, configuration,
-management, etc.) this is the time to mention it.
+ART repo management
 
 ## Setup
 
 ### What art affects
 
-* A list of files, packages, services, or operations that the module will alter,
-  impact, or execute on the system it's installed on.
-* This is a great place to stick any warnings.
-* Can be in list or paragraph form.
+*  yum repo management
 
 ### Setup Requirements
 
@@ -44,23 +35,19 @@ This module requires pluginsync enabled
 
 ### Beginning with art
 
-The very basic steps needed for a user to get the module up and running.
+Just include it:
 
-If your most recent release breaks compatibility or requires particular steps
-for upgrading, you may wish to include an additional section here: Upgrading
-(For an example, see http://forge.puppetlabs.com/puppetlabs/firewall).
+```
+include ::art
+```
 
 ## Usage
 
-Put the classes, types, and resources for customizing, configuring, and doing
-the fancy stuff with your module here.
+TODO
 
 ## Reference
 
-Here, list the classes, types, providers, facts, etc contained in your module.
-This section should include all of the under-the-hood workings of your module so
-people know what the module is touching on their system but don't need to mess
-with things. (We are working on automating this section!)
+TODO
 
 ## Limitations
 
@@ -73,7 +60,7 @@ have some test to check both presence and absence of any feature
 
 ### TODO
 
-TODO list
+Nothing so far
 
 ### Contributing
 

@@ -1,7 +1,6 @@
 class art::params {
 
   $package_name='art'
-  $service_name='art'
 
   $gpg_art_url='https://www.atomicorp.com/RPM-GPG-KEY.art.txt'
   $gpg_atomicorp_url='https://www.atomicorp.com/RPM-GPG-KEY.atomicorp.txt'
