@@ -1,11 +1,11 @@
 {
   "name": "eyp-art",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "eyp",
   "summary": "Atomic Rocket Turtle repo management",
   "license": "Apache-2.0",
   "source": "https://github.com/NTTCom-MS/eyp-art",
-  "project_page": null,
+  "project_page": "https://github.com/NTTCom-MS/eyp-art",
   "issues_url": "https://github.com/NTTCom-MS/eyp-art/issues",
   "dependencies": [
     {"name":"puppetlabs/stdlib","version_requirement":">= 1.0.0"},
